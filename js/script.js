@@ -1,20 +1,36 @@
-// let h1 = document.getElementsByTagName('h1')[0]
+let h1 = document.getElementsByTagName('h1')[0]
+const btn = document.getElementsByTagName('button')[0]
 
-// h1.addEventListener('click', () => {
-//   h1.innerHTML = 'Treehouses'
+h1.addEventListener('click', () => {
+  h1.innerHTML = 'Treehouses'
 
-//   if (h1.innerHTML == 'Treehouses') {
-//     h1.style.cssText = ' color : red; opacity : 50%; font-size : 3rem;'
+  if (h1.innerHTML == 'Treehouses') {
+    h1.style.cssText = ' color : red; opacity : 50%; font-size : 3rem;'
+  }
+})
 
-//     console.log(`welcome to ${h1.innerHTML} Website`)
-//   }
-// })
+btn.addEventListener('click', () => {
+  if (h1.innerHTML == 'Treehouse') {
+    h1.style.display === 'block'
+  }
+
+  if (h1.style.display === 'block') {
+    h1.style.cssText = ' color : red; opacity : 50%; font-size : 5rem;'
+  } else {
+    h1.style.cssText = 'font-size: 6rem;
+      color: #fff;
+      color: #6de2ff;
+      line-height: 2.5rem;'
+  }
+})
 
 // if (h1.innerHTML == 'Test') {
 //   h1.style.cssText = ' color : #fff; opacity : 100%; font-size : 5rem;'
 
 //   console.log('Alert! Alert! this is just a test')
 // }
+
+//= =======================
 
 // const person = {
 //   firstName: 'Nathan',
