@@ -16,9 +16,9 @@
 //   console.log('Alert! Alert! this is just a test')
 // }
 
-const person = {
-  firstName: 'Nathan',
-  LastName: 'Daniels'
-}
+// const person = {
+//   firstName: 'Nathan',
+//   LastName: 'Daniels'
+// }
 
-const { firstName: fname, lastName: lname } = person
+// const { firstName: fname, lastName: lname } = person
