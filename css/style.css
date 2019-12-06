@@ -24,6 +24,9 @@ body {
 }
 
 .hero-container nav {
+  display: fixed;
+  top: 0;
+  width: 100%;
   text-align: right;
   padding: 20px;
 }
