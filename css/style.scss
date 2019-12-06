@@ -19,7 +19,6 @@ body {
   height: 100vh;
   border-bottom: 1px solid black;
   box-shadow: 0px 10px 5px black;
-  // background-image: url("/img/Treehouse-Hero.jpg");
   background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0.4) 80%),
     url("/img/Treehouse-Hero.jpg") no-repeat;
   background-position: center;
@@ -49,7 +48,6 @@ body {
   }
 
   .title-wrapper {
-    // float: right;
     position: absolute;
     right: 0;
     text-align: right;
@@ -87,7 +85,6 @@ body {
       background: #fff;
       &:hover {
         background: #6de2ff;
-        // color: #fff;
       }
     }
   }
