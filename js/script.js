@@ -10,17 +10,10 @@ h1.addEventListener('click', () => {
 })
 
 btn.addEventListener('click', () => {
-  if (h1.innerHTML == 'Treehouse') {
-    h1.style.display === 'block'
-  }
-
   if (h1.style.display === 'block') {
-    h1.style.cssText = ' color : red; opacity : 50%; font-size : 5rem;'
+    h1.style.display = 'none'
   } else {
-    h1.style.cssText = 'font-size: 6rem;
-      color: #fff;
-      color: #6de2ff;
-      line-height: 2.5rem;'
+    h1.style.display = 'block'
   }
 })
 
